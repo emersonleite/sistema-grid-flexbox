@@ -1,0 +1,129 @@
+/* ----- Flex Grid ----- */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  background-color: #252525;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.header {
+  font-family: "Courier New", Courier, monospace;
+  padding: 20px;
+  background-color: #cda112;
+  color: #252525;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+}
+
+.header a {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.cont-1024-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-1 {
+  background: #757575;
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  width: calc((100% / 12) * 1 - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  min-height: 150px;
+}
+
+.box-2 {
+  background: #757575;
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  width: calc((100% / 12) * 2 - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  min-height: 150px;
+}
+
+.box-3 {
+  background: #757575;
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 calc((100% / 12) * 3 - 20px);
+  max-width: calc((100% / 12) * 3 - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  min-height: 150px;
+}
+
+.box-4 {
+  background: #757575;
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 calc((100% / 12) * 4 - 20px);
+  max-width: calc((100% / 12) * 4 - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  min-height: 150px;
+}
+
+.footer {
+  background-color: #252525;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  margin-top: 30px;
+  padding: 15px;
+}
+
+.footer p,
+.footer a {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* .border {
+  border: 1px solid black;
+} */
